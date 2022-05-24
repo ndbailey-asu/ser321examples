@@ -9,12 +9,18 @@ import java.io.*;
  *         Software Engineering, CIDSE, IAFSE, ASU Poly
  * @version January 2020
  */
-public class Fraction {
+public class Fraction(int Pnum, int Pdenom) {
 
    private int numerator, denominator;
 
-   public Fraction(){
+/*    public Fraction(){
       numerator = denominator = 0;
+   } */
+   
+   public Fraction(int Pnum, int Pdenom)
+   {
+	   numerator = Pnum;
+	   denominator = Pdenom;
    }
 
    public void print() {
